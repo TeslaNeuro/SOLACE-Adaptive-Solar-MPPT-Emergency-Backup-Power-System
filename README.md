@@ -1,5 +1,5 @@
 # Solar-MPPT-Emergency-AC-Load-Balancing
-This project focuses on enhancing the power output of a DC-AC solar panel MPPT (Maximum Power Point Tracking) system. Traditional PWM-based solar charge controllers often struggle to produce sufficient power, especially under varying temperature conditions, due to their inability to dynamically adjust voltage and current for optimal efficiency. The solution presented here utilizes relay switches and inverter load balancing techniques to improve energy output and maximize solar panel efficiency.
+This project focuses on enhancing household power output and reliability of a DC-AC solar panel MPPT (Maximum Power Point Tracking) system. Traditional PWM-based solar charge controllers often struggle to produce sufficient power, especially under varying temperature conditions, due to their inability to dynamically adjust voltage and current for optimal efficiency. The solution presented here utilizes relay switches and inverter load balancing techniques to improve energy output and maximize solar panel efficiency.
 
 ## Problem Statement
 PWM (Pulse Width Modulation) controllers are widely used in solar charge regulation but are limited by their inability to effectively handle variations in environmental conditions, such as temperature and sunlight. These limitations result in lower efficiency, leading to insufficient power generation. A more dynamic, adaptive system is required to overcome these inefficiencies and make the most of solar energy.
@@ -18,7 +18,7 @@ The project proposes a creative approach by integrating relay switches, pwm time
 - **MPPT Controller**: Maximizes the energy harvested from the solar panel.
 - **Relay Switches**: Dynamically manage the load to optimize energy distribution.
 - **Inverter**: Converts DC to AC and balances the load to ensure stability.
-- **PWM Timer**: To enable a delay during low sunlight or unstable sunlight conditions for maximum power delivery without sudden dropouts.
+- **PWM Timer**: To enable a delay (Logical state) during low sunlight or unstable sunlight conditions for maximum power delivery without sudden or unforseen dropouts.
 
 ## Usage
 1. Once the hardware is set up and setup properly, the system will begin tracking the maximum power point of the solar panel.

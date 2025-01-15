@@ -1,2 +1,2 @@
-# Solar-MPPT-Emergency-Load-Balancing
-A project to utilise the power output of a DC-AC solar panel MPPT system as an emergency back up power through the use of relay switches and inverter load balancing techniques.
+# Solar-MPPT-Emergency-AC-Load-Balancing
+It addresses the inefficiencies of traditional PWM-based solar charge controllers, which often fail to produce sufficient power under varying temperature conditions due to their limited control over voltage and current. The system uses relay switches and inverter AC load balancing to improve performance and increase energy production efficiency overtime.

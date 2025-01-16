@@ -1,4 +1,4 @@
-# Solar-MPPT-Emergency-AC-Load-Balancing
+# Solar-MPPT-Emergency-AC-Load-Balancing-System
 This project focuses on enhancing household power output and reliability of a DC-AC solar panel MPPT (Maximum Power Point Tracking) system. Traditional PWM-based solar charge controllers often struggle to produce sufficient power, especially under varying temperature conditions, due to their inability to dynamically adjust voltage and current for optimal efficiency. The solution presented here utilizes relay switches and inverter load balancing techniques to improve energy output and maximize solar panel efficiency.
 
 ## Problem Statement

@@ -21,7 +21,7 @@ The project proposes a low cost approach by integrating relay switches, pwm time
 - **PWM Timer**: To enable a delay (Logical state) during low sunlight or unstable sunlight conditions for maximum power delivery without sudden or unforseen dropouts.
 
 ## Usage
-1. Once the hardware is set up and setup properly, the system will begin tracking the maximum power point of the solar panel.
+1. Once the hardware is set up properly, the system will begin tracking the maximum power point of the solar panel.
 2. Relay switches will automatically adjust the load using an adjustable timer, and the inverter will ensure stable AC output especially within unstable conditions.
 3. The system will dynamically respond to temperature variations and other environmental factors to optimize power generation.
 

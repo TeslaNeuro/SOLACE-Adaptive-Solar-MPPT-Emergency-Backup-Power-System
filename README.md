@@ -11,7 +11,7 @@ The project proposes a low cost approach by integrating relay switches, pwm time
 - **MPPT Optimization**: Real-time tracking of maximum power point for efficient energy conversion.
 - **Relay Switch Integration**: Adjusts the load based on real-time system requirements.
 - **Inverter Load Balancing**: Dynamically balances the inverter’s load to enhance power output.
-- **Increased Efficiency**: Boosts overall system efficiency by 10% compared to traditional systems.
+- **Increased Efficiency**: Boosts overall system efficiency by 10% compared to traditional PWM systems (Cabling and Wiring Matters too I2R losses).
 
 ## System Architecture
 - **Solar Panel**: Captures solar energy and converts it to electrical power.

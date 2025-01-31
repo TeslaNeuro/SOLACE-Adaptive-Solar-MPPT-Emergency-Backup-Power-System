@@ -3,6 +3,7 @@ This project focuses on enhancing household power output and reliability of a DC
 
 ## Problem Statement
 PWM (Pulse Width Modulation) controllers are widely used in solar charge regulation but are limited by their inability to effectively handle variations in environmental conditions, such as temperature and sunlight. Some use current limiting resistors or filters to induce a delay, although a cheap method it is highly dangerous to do so for long term use thus, these limitations result in lower efficiency, leading to insufficient power generation. A more dynamic, adaptive system is required to overcome these inefficiencies and make the most of solar energy and DC power available from a Lead ACID or Lithium based battery.
+
 <img src="https://github.com/user-attachments/assets/8c8f58a1-ef3d-4705-903d-b33cf700037f" width="200">
 
 ## Solution Approach

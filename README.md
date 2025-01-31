@@ -1,7 +1,7 @@
 # Solar-MPPT-Emergency-AC-Load-Balancing-System
 This project focuses on enhancing household power output and reliability of a DC-AC solar panel MPPT (Maximum Power Point Tracking) system. Traditional PWM-based solar charge controllers often struggle to produce sufficient power, especially under varying temperature conditions, due to their inability to dynamically adjust voltage and current for optimal efficiency. The solution presented here utilizes relay switches and inverter load balancing techniques to improve energy output and maximize solar panel efficiency.
 
-<img src="https://github.com/user-attachments/assets/12c970ca-7c3a-432c-b8d8-61af132cfaa1" width="750x750">
+<img src="https://github.com/user-attachments/assets/12c970ca-7c3a-432c-b8d8-61af132cfaa1" width="500x500">
 
 ## Problem Statement
 PWM (Pulse Width Modulation) controllers are widely used in solar charge regulation but are limited by their inability to effectively handle variations in environmental conditions, such as temperature and sunlight. Some use current limiting resistors or filters to induce a delay, although a cheap method it is highly dangerous to do so for long term use thus, these limitations result in lower efficiency, leading to insufficient power generation. A more dynamic, adaptive system is required to overcome these inefficiencies and make the most of solar energy and DC power available from a Lead ACID or Lithium based battery.

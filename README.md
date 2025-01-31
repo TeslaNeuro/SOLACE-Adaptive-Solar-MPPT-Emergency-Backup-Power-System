@@ -11,6 +11,8 @@ The project proposes a low cost approach by integrating relay switches, pwm time
 
 <img src="https://github.com/user-attachments/assets/476539eb-109e-4ece-8a4c-8cc67e06327b" width="250x250">
 
+<img src="https://github.com/user-attachments/assets/15ab3425-139a-4740-82d0-79c46bf402bc" width="250x250">
+
 ## Features
 - **MPPT Optimization**: Real-time tracking of maximum power point for efficient energy conversion.
 - **Relay Switch Integration**: Adjusts the load based on real-time system requirements.

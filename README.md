@@ -30,6 +30,38 @@ The project proposes a low cost approach by integrating relay switches, pwm time
 - **Inverter**: Converts DC to AC and balances the load to ensure stability.
 - **PWM Timer**: To enable a delay (Logical state) during low sunlight or unstable sunlight conditions for maximum power delivery without sudden or unforseen dropouts.
 
+```plaintext
+                          +----------------------+
+                          |     Solar Panel      |
+                          +----------------------+
+                                    |
+                                    v
+                          +----------------------+
+                          |   MPPT Controller    |
+                          +----------------------+
+                                    |
+                                    v
+                          +----------------------+
+                          |   Battery Storage    |
+                          +----------------------+
+                                    |
+                                    v
+                          +----------------------+
+                          |       Inverter       |
+                          |   (DC to AC Power)   |
+                          +----------------------+
+                                    |
+            +-----------------------+-----------------------+
+            |                                               |
+            v                                               v
+  +----------------------+                          +----------------------+
+  |  Relay Switches +    |                          |   AC Load Output     |
+  |    PWM Timer     |---------------------------->|                      |
+  | (Switches Load   |                          +----------------------+
+  |  Between Inverter AC  |  
+  |  and Mains AC)        |
+  +----------------------+
+
 ## Usage
 1. Once the hardware is set up properly, the system will begin tracking the maximum power point of the solar panel.
 2. Relay switches will automatically adjust switching from battery powered DC-AC to Mains AC load using an adjustable timer, this should ensure a stable inverter AC output especially within unstable conditions (Can cause Arcing on Relay if not careful).

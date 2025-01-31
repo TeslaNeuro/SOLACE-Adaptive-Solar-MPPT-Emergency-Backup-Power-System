@@ -9,6 +9,8 @@ PWM (Pulse Width Modulation) controllers are widely used in solar charge regulat
 ## Solution Approach
 The project proposes a low cost approach by integrating relay switches, pwm timers, and inverter load balancing into the solar power system. This setup enables more precise control over power distribution, improving energy harvesting and optimizing the performance of the solar panel across different environmental conditions.
 
+<img src="https://github.com/user-attachments/assets/476539eb-109e-4ece-8a4c-8cc67e06327b" width="250x250">
+
 ## Features
 - **MPPT Optimization**: Real-time tracking of maximum power point for efficient energy conversion.
 - **Relay Switch Integration**: Adjusts the load based on real-time system requirements.

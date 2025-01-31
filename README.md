@@ -61,7 +61,7 @@ The project proposes a low cost approach by integrating relay switches, pwm time
   |  Between Inverter AC  |  
   |  and Mains AC)        |
   +----------------------+
-
+```
 ## Usage
 1. Once the hardware is set up properly, the system will begin tracking the maximum power point of the solar panel.
 2. Relay switches will automatically adjust switching from battery powered DC-AC to Mains AC load using an adjustable timer, this should ensure a stable inverter AC output especially within unstable conditions (Can cause Arcing on Relay if not careful).

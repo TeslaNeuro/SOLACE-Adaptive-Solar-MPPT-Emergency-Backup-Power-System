@@ -50,17 +50,20 @@ The project proposes a low cost approach by integrating relay switches, pwm time
                           |       Inverter       |
                           |   (DC to AC Power)   |
                           +----------------------+
+                                    |                                               
+                                    v                                               
+                          +----------------------+
+                          |  Relay Switch +      |
+                          |    PWM Timer         |
+                          | (Switches Load       |                        
+                          |  Between Inverter AC |  
+                          |  and Mains AC)       |
+                          +----------------------+
                                     |
-            +-----------------------+-----------------------+
-            |                                               |
-            v                                               v
-  +----------------------+                          +----------------------+
-  |  Relay Switches +    |                          |   AC Load Output     |
-  |    PWM Timer     |---------------------------->|                      |
-  | (Switches Load   |                          +----------------------+
-  |  Between Inverter AC  |  
-  |  and Mains AC)        |
-  +----------------------+
+                                    v
+                          +----------------------+
+                          |   AC Load Output     |
+                          +----------------------+
 ```
 ## Usage
 1. Once the hardware is set up properly, the system will begin tracking the maximum power point of the solar panel.

@@ -73,5 +73,5 @@ The project proposes a low cost approach by integrating relay switches, pwm time
 ## Potential Future Upgrades
 1. Power monitoring and automation control via an IoT Edge based Microcontroller with ML integration.
 2. Mitigation of capacitive and inductive loads at higher currents to prevent spikes or conditions that may damage components in the chain like DC-AC Inverters not rated at higher current limits.
-3. Integration of robust embedded tools and electronics to garauntee stability and reliability for long term use.
+3. Integration of robust embedded tools and electronics to guarantee stability and reliability for long term use.
 4. Design of custom circuitry for maximum performance and remote operation.

@@ -1,5 +1,5 @@
 # Solar-MPPT-Emergency-AC-Load-Balancing-System
-This project focuses on enhancing household power output and reliability of a DC-AC solar panel emergency back up power system. Traditional PWM-based solar charge controllers often struggle to produce sufficient power, especially under varying temperature conditions, due to their inability to dynamically adjust voltage and current for optimal efficiency. The solution presented here utilizes relay switches and inverter load balancing techniques to improve energy output and maximize solar panel efficiency.
+This project focuses on enhancing domestic household power output and reliability of a DC-AC solar panel emergency back up power system. Traditional PWM-based solar charge controllers often struggle to produce sufficient power, especially under varying temperature conditions, due to their inability to dynamically adjust voltage and current for optimal efficiency. The solution presented here utilizes relay switches and inverter load balancing techniques to improve energy output and maximize solar panel efficiency.
 
 <img src="https://github.com/user-attachments/assets/12c970ca-7c3a-432c-b8d8-61af132cfaa1" width="500x500">
 

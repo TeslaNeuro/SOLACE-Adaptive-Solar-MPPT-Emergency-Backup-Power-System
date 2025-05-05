@@ -85,6 +85,8 @@ Switching from lead-acid to lithium batteries significantly enhances the overall
 
 Integrating lithium batteries enhances system efficiency, reliability, and compatibility with adaptive MPPT and inverter balancing strategies.
 
+![image](https://github.com/user-attachments/assets/8d7b104b-66da-4a77-b261-5116ba7d4c70)
+
 ## Potential Future Upgrades
 1. Power monitoring and automation control via an IoT Edge based Microcontroller with ML integration.
 2. Mitigation of capacitive and inductive loads at higher currents to prevent spikes or conditions that may damage components in the chain like DC-AC Inverters not rated at higher current limits.

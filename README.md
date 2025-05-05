@@ -70,6 +70,21 @@ The project proposes a low cost approach by integrating relay switches, pwm time
 2. Relay switches will automatically adjust switching from battery powered DC-AC to Mains AC load using an adjustable timer, this should ensure a stable inverter AC output especially within unstable conditions (Can cause Arcing on Relay if not careful).
 3. The system will dynamically respond to temperature variations and other environmental factors to optimize power generation.
 
+## Lead-Acid vs. Lithium Batteries
+
+Switching from lead-acid to lithium batteries significantly enhances the overall performance and reliability of the backup power system. The following improvements are observed:
+
+| Feature                      | Lead-Acid Battery                  | Lithium Battery                       | Improvement Impact                                       |
+|-----------------------------|------------------------------------|----------------------------------------|----------------------------------------------------------|
+| **Energy Density**          | Low                                | High                                   | Enables smaller, lighter systems                         |
+| **Charging Speed**          | Slow (limited charge current)      | Fast (handles higher charge current)   | Quicker recharge times from solar or AC input            |
+| **Cycle Life**              | ~300–500 cycles                    | 2000+ cycles                           | Longer battery lifespan and reduced maintenance          |
+| **Depth of Discharge (DoD)**| ~50% usable capacity               | 80–90% usable capacity                 | More usable energy per cycle                             |
+| **Voltage Stability**       | Drops as battery discharges        | Stable throughout discharge            | Consistent inverter performance, better AC output        |
+| **Self-Discharge Rate**     | Higher                             | Lower                                  | Better for intermittent solar harvesting/storage         |
+
+Integrating lithium batteries enhances system efficiency, reliability, and compatibility with adaptive MPPT and inverter balancing strategies.
+
 ## Potential Future Upgrades
 1. Power monitoring and automation control via an IoT Edge based Microcontroller with ML integration.
 2. Mitigation of capacitive and inductive loads at higher currents to prevent spikes or conditions that may damage components in the chain like DC-AC Inverters not rated at higher current limits.

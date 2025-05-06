@@ -77,7 +77,7 @@ Switching from lead-acid to lithium batteries significantly enhances the overall
 | Feature                      | Lead-Acid Battery                  | Lithium Battery                       | Improvement Impact                                       |
 |-----------------------------|------------------------------------|----------------------------------------|----------------------------------------------------------|
 | **Energy Density**          | Low                                | High                                   | Enables smaller, lighter systems                         |
-| **Charging Speed**          | Slow (limited charge current)      | Fast (handles higher charge current)   | Quicker recharge times from solar or AC input            |
+| **Charging Speed**          | Slow (limited charge current)      | Fast (handles higher charge current)   | Quicker recharge times from solar or DC input            |
 | **Cycle Life**              | ~300–500 cycles                    | 2000+ cycles                           | Longer battery lifespan and reduced maintenance          |
 | **Depth of Discharge (DoD)**| ~50% usable capacity               | 80–90% usable capacity                 | More usable energy per cycle                             |
 | **Voltage Stability**       | Drops as battery discharges        | Stable throughout discharge            | Consistent inverter performance, better AC output        |

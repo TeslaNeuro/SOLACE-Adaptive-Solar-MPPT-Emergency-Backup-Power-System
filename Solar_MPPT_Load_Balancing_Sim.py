@@ -1,4 +1,4 @@
-# The above below simulates a solar power system with relay control using hysteresis and timer delays.
+# The below simulates a solar power system with relay control using hysteresis and timer delays.
 # It visualizes the solar power input, MPPT output, PWM output, and relay switching behavior.
 # The relay switching is controlled by hysteresis and delays to prevent rapid toggling.
 # The plot shows the effect of these controls on the relay state, providing a clear view of how the system behaves under varying solar conditions.

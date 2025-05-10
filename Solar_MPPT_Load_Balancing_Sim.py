@@ -124,10 +124,9 @@ ax2.plot(time, pwm_relay_advanced*0.2 + 1.2, label="PWM Advanced Relay (with del
          drawstyle='steps-post', color="darkorange", linewidth=2)
 
 # Add relay state labels
-ax2.set_yticks([0.1, 0.5, 0.9, 1.3])
-ax2.set_yticklabels(['OFF', 'OFF', 'OFF', 'OFF'])
 ax2.set_yticks([0.3, 0.7, 1.1, 1.5])
-ax2.set_yticklabels(['ON', 'ON', 'ON', 'ON'])
+ax2.set_yticklabels(['1', '2', '3', '4'])
+ax2.set_ylim(-0.1, 1.5)
 
 ax2.set_xlabel("Time (seconds)")
 ax2.set_ylabel("Relay States")
@@ -144,6 +143,17 @@ mppt_advanced_switches = np.sum(np.abs(np.diff(mppt_relay_advanced)))
 pwm_simple_switches = np.sum(np.abs(np.diff(pwm_relay_simple)))
 pwm_advanced_switches = np.sum(np.abs(np.diff(pwm_relay_advanced)))
 
+# Calculate relay wear reduction
+if mppt_simple_switches > 0:
+    mppt_reduction = ((mppt_simple_switches - mppt_advanced_switches) / mppt_simple_switches * 100)
+else:
+    mppt_reduction = 0  # Prevent division by zero
+
+if pwm_simple_switches > 0:
+    pwm_reduction = ((pwm_simple_switches - pwm_advanced_switches) / pwm_simple_switches * 100)
+else:
+    pwm_reduction = 0  # Prevent division by zero
+    
 # Print results
 print("==== CONTROLLER EFFICIENCY COMPARISON ====")
 print(f"MPPT average power output: {np.mean(mppt_output):.2f}W")

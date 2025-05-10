@@ -54,7 +54,7 @@ The project proposes a holistic approach by integrating relay switches, adjustab
                                     v                                               
                           +----------------------+
                           |  Relay Switch +      |
-                          |    Delay Timer         |
+                          |    Delay Timer       |
                           | (Switches Load       |                        
                           |  Between Inverter AC |  
                           |  and Mains AC)       |

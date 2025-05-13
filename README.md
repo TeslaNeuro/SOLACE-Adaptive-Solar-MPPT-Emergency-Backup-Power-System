@@ -28,7 +28,7 @@ The project proposes a holistic approach by integrating relay switches, adjustab
 - **MPPT Controller**: Maximizes the energy harvested from the solar panel.
 - **Relay Switches**: Dynamically manage the load to optimize energy distribution.
 - **Inverter**: Converts DC to AC and balances the load to ensure stability.
-- **PWM Timer**: To enable a delay (Logical state) during low sunlight or unstable sunlight conditions for maximum power delivery without sudden or unforseen dropouts.
+- **Delay Timer**: To enable a delay (Logical state) during low sunlight or unstable sunlight conditions for maximum power delivery without sudden or unforseen dropouts.
 
 ```plaintext
                           +----------------------+

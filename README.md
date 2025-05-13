@@ -70,6 +70,10 @@ The project proposes a holistic approach by integrating relay switches, adjustab
 2. Relay switches will automatically adjust switching from battery powered DC-AC to Mains AC load using an adjustable timer, this should ensure a stable inverter AC output especially within unstable conditions (Can cause Arcing on Relay if not careful).
 3. The system will dynamically respond to temperature variations and other environmental factors to optimize power generation.
 
+### Results
+
+![image](https://github.com/user-attachments/assets/ef3c116a-5ab5-445e-9676-26c489605dbc)
+
 ## Lead-Acid vs. Lithium Batteries
 
 Switching from lead-acid to lithium batteries significantly enhances the overall performance and reliability of the backup power system. The following improvements are observed:
